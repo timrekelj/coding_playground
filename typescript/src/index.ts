@@ -1,4 +1,4 @@
-class ListNode {
+export class ListNode {
     public value: number | undefined;
     public next: ListNode | undefined;
 
@@ -8,7 +8,7 @@ class ListNode {
     }
 }
 
-class LinkedList {
+export class LinkedList {
     start: ListNode;
 
     constructor() {

@@ -2,6 +2,7 @@ export class ListNode {
     public value: number | undefined;
     public next: ListNode | undefined;
 
+
     constructor(value: number | undefined, next: ListNode | undefined) {
         this.value = value;
         this.next = next;
